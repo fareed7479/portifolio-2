@@ -71,7 +71,7 @@ function App() {
   const handleDownload = () => {
     setIsDownloading(true);
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
+    link.href = '';
     link.download = 'Vema_Pooja_Thanusri_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -241,7 +241,7 @@ function App() {
       </section>
 
       {/* Education Section */}
-      {/* <section id="education" className="snap-start h-screen bg-[#222831] flex items-center justify-center py-16">
+      <section id="education" className="snap-start h-screen bg-[#222831] flex items-center justify-center py-16">
         <div className="container mx-auto px-6">
           <motion.h2 
             initial={{ opacity: 0, y: -20 }}
@@ -303,7 +303,7 @@ function App() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Skills Section */}
       <section id="skills" className="snap-start h-screen bg-[#222831] flex items-center justify-center py-16">
@@ -433,7 +433,7 @@ function App() {
                           whileHover={{ scale: 1.05 }}
                           className="bg-[#76ABAE]/20 text-[#EEEEEE] px-2 py-1 rounded text-sm font-medium"
                         >
-                          {item}
+                        {item}
                         </motion.span>
                       ))}
                     </div>
