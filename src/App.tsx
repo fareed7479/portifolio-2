@@ -241,7 +241,7 @@ function App() {
       </section>
 
       {/* Education Section */}
-      <section id="education" className="snap-start h-screen bg-[#222831] flex items-center justify-center py-16">
+      {/* <section id="education" className="snap-start h-screen bg-[#222831] flex items-center justify-center py-16">
         <div className="container mx-auto px-6">
           <motion.h2 
             initial={{ opacity: 0, y: -20 }}
@@ -303,7 +303,7 @@ function App() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Skills Section */}
       <section id="skills" className="snap-start h-screen bg-[#222831] flex items-center justify-center py-16">
